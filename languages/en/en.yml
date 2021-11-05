@@ -2307,7 +2307,6 @@ PROFILE_MAIN_ITEM_PLAYER_LORE:
   - '§7End date: %s'
   - ''
   - '§7Coins: §6%s'
-  - '§7Dust: §b%s'
   - '§7Gold: §e%s'
   - ''
   - '§7Friends: §f%s§7/§f%s'
