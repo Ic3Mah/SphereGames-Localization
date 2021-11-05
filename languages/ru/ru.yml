@@ -206,7 +206,7 @@ ALERT_FORMAT: /alert <сообщение>
 ALREADY_AT_LOBBY: §cВы уже в главном лобби
 ALREADY_ON_SERVER: §6Сервер §8| §cВы уже находитесь на этом сервере!
 ARCADE_LOBBY_BOARD_STATS: §7[Общая статистика]
-AVAILABLE_SERVER_NOT_FOUND: $SERVER_PREFIX$Не удалось найти подходящий сервер
+AVAILABLE_SERVER_NOT_FOUND: §6Сервер §8| §fНе удалось найти подходящий сервер
 BBD_GAME_DESC:
   - Ваша задача построить лучшую постройку
   - на заданную тему за 5 минут. После окончания
@@ -472,11 +472,11 @@ FAVORITE_ITEM_LORE:
 FAVORITE_LORE_ADD: §aПКМ, чтобы добавить в избранное
 FAVORITE_LORE_REMOVE: §cПКМ, чтобы убрать из избранного
 FIND_FORMAT: /find <ник игрока>
-FIND_RESULT: $SERVER_PREFIX$Игрок %s §fнаходится на сервере §c%s
+FIND_RESULT: §6Сервер §8| §fИгрок %s §fнаходится на сервере §c%s
 FIND_RESULT_OFFLINE: >-
-  $SERVER_PREFIX$Игрок %s §fоффлайн, последний раз он был на сервере §7%s
+  §6Сервер §8| §fИгрок %s §fоффлайн, последний раз он был на сервере §7%s
   §fназад
-MIGRATE_RESULT: $SERVER_PREFIX$Статистика игрока %s §fперенесена на ник %s
+MIGRATE_RESULT: §6Сервер §8| §fСтатистика игрока %s §fперенесена на ник %s
 GAMEMODE_FORMAT: /gamemode <1|2|0>
 GAMEMODE_TO: $@MODE_PREFIX$Игроку %s §fустановлен режим - §c%s
 GIFT_ALREADY_ACTIVATED: §cОшибка, купон %s уже был активирован вами ранее
@@ -528,7 +528,7 @@ JUNIORS_GUI_MAIN_LORE:
   - '§7Младших хелперов:'
   - §a%s
 KEY_BOX: '%sУ вас %s %s'
-LANGUAGE_CHANGE: '$SERVER_PREFIX$Ваш язык изменен на: §c%s'
+LANGUAGE_CHANGE: '§6Сервер §8| §fВаш язык изменен на: §c%s'
 LEVEL_ALLREADY_GIVE: §cОшибка, вы уже получили данную награду!
 LEVEL_COMMAND_1: §6Игровой уровень §8| §fУ вас §d%s§f уровень
 LEVEL_COMMAND_2: §6Игровой уровень §8| §fДо следующего уровня необходимо набрать §a%s§f опыта
@@ -540,9 +540,9 @@ LIMBO_ITEM_LORE:
   - §7чтобы вернуться в главное лобби
 LIMBO_ITEM_NAME: Назад в главное лобби
 LIMBO_NO_CHAT: >-
-  $SERVER_PREFIX$Извините, но вы не можете писать в §aчат§f. Вернуться в главное
+  §6Сервер §8| §fИзвините, но вы не можете писать в §aчат§f. Вернуться в главное
   лобби §7/hub §fили §7/lobby
-LIMIT_REACHED: $SERVER_PREFIX$Вы достигли лимита для этого наказания, подождите еще §e%s
+LIMIT_REACHED: §6Сервер §8| §fВы достигли лимита для этого наказания, подождите еще §e%s
 LIST_CMD: '%s§fНа сервере §a%s §f%s: %s'
 LIST_EMPTY: §8Никого нет
 LOCATOR_ITEM_LORE:
@@ -625,7 +625,7 @@ PREFIX_CHANGE_LORE:
 PREFIX_CHANGE_LORE2:
   - ''
   - §aПрефикс выбран
-PREFIX_SET: $SERVER_PREFIX$Ваш префикс был изменен
+PREFIX_SET: §6Сервер §8| §fВаш префикс был изменен
 PROMO_ITEM_NAME: §aСКИДКИ!
 PRS_GAME_DESC:
   - Пройдите как можно больше модулей, для того,
@@ -645,7 +645,7 @@ REPLAY_ITEM_NAME: §eНачать новую игру
 REPLY_FORMAT: §c/reply <сообщение>
 REPLY_PLAYER_OFFLINE: §cВам никто не писал
 REQUEST_GUI_NAME: Список запросов
-RULES_COMMAND: '$SERVER_PREFIX$Полный список правил сервера - '
+RULES_COMMAND: '§6Сервер §8| §fПолный список правил сервера - '
 RULES_COMMAND_HOVER: §fНажмите сюда, чтобы перейти по ссылке
 SBS_GAME_DESC:
   - 'Ваша задача повторить нужную постройку за '
@@ -653,7 +653,7 @@ SBS_GAME_DESC:
   - процентом точности постройки будут уничтожены ведущим.
   - Последний оставшиеся в живых побеждает!
 SELECTED_SKIN_IS_INVALID: §cВыбранный вами скин невалиден или произошла какая-то ошибка
-SENDING_PLAYER_TO_SERVER: $SERVER_PREFIX$Игрок %s §fуспешно телепортирован на сервер §c%s
+SENDING_PLAYER_TO_SERVER: §6Сервер §8| §fИгрок %s §fуспешно телепортирован на сервер §c%s
 SENDMONEY_ERROR_MONEY: §cОшибка, вы не можете переводить суммы ниже 300 и выше 5.000 монет за раз!
 SENDMONEY_ERROR_SEND: >-
   §cОшибка, вы не можете отправить %s %s, так как ваш дневной лимит на отправку
@@ -668,9 +668,9 @@ SENDMONEY_NO_MONEY: >-
   §cОшибка, на вашем балансе недостаточно средств! Включая комиссию %s на вашем
   счету должно быть %s %s
 SENDMONEY_SEND: >-
-  $SERVER_PREFIX$Вы успешно передали §a%s §f%s игроку %s§f. Комиссия при
+  §6Сервер §8| §fВы успешно передали §a%s §f%s игроку %s§f. Комиссия при
   переводе составила §c%s §f%s (§e%s§f)
-SENDMONEY_TO: $SERVER_PREFIX$Вы успешно получили §a%s §f%s от игрока %s
+SENDMONEY_TO: §6Сервер §8| §fВы успешно получили §a%s §f%s от игрока %s
 SENDMONEY_YOU: §cТы что, дурак ?! Зачем ты отправляешь деньги сам себе!
 SEND_FORMAT: /send <ник игрока> <сервер>
 SENT_MESSAGE_FORMAT: ' §6ЛС §8| §6Я§8 -> §6%s§8 | §f%s'
@@ -679,13 +679,13 @@ SERVER_FORMAT: /server <сервер>
 SERVER_IS_NOT_ONLINE: §cСервер не найден!
 SERVER_PREFIX: §6Сервер §8| §f
 SERVER_QUEUE: §aТелепортирую на сервер %s
-SERVER_TELEPORTATION: $SERVER_PREFIX$Вы были телепортированы на сервер §a%s
-SERVER_TO: $SERVER_PREFIX$Вы подключены к серверу §a%s
+SERVER_TELEPORTATION: §6Сервер §8| §fВы были телепортированы на сервер §a%s
+SERVER_TO: §6Сервер §8| §fВы подключены к серверу §a%s
 SERVER_TO_LIMBO: >-
-  $SERVER_PREFIX$Ваш сервер был не найден в главном ядре, вы были
+  §6Сервер §8| §fВаш сервер был не найден в главном ядре, вы были
   телепортированы в §aLimbo
-SERVER_TO_WAIT: $SERVER_PREFIX$Ждем появления вашего сервера...
-SERVER_WAS_DOWN: $SERVER_PREFIX$Сервер §a%s §fзакрыл Ваше соединение, Вы перенаправлены на §a%s
+SERVER_TO_WAIT: §6Сервер §8| §fЖдем появления вашего сервера...
+SERVER_WAS_DOWN: §6Сервер §8| §fСервер §a%s §fзакрыл Ваше соединение, Вы перенаправлены на §a%s
 SGD_GAME_DESC:
   - Сражайтесь с другими за право быть лучшим
   - В этом Вам помогут вещи из сундуков, а также
@@ -697,9 +697,9 @@ SGS_GAME_DESC:
   - В этом Вам помогут вещи из сундуков, а также
   - умения и наборы, которые Вы выбрали в лобби
   - Победителем станет последний выживший игрок
-SIT_DISABLE: $SERVER_PREFIX$Вы успешно встали
-SIT_ENABLE: $SERVER_PREFIX$Вы успешно сели
-SIT_ERROR: $SERVER_PREFIX$Вы не можете сидеть в воздухе
+SIT_DISABLE: §6Сервер §8| §fВы успешно встали
+SIT_ENABLE: §6Сервер §8| §fВы успешно сели
+SIT_ERROR: §6Сервер §8| §fВы не можете сидеть в воздухе
 SKIN_FORMAT: /skin <reset/ник игрока>
 SKIN_HAS_BEEN_RESET: §6Скин §8| §fВаш скин был сброшен
 SKIN_HAS_BEEN_UPDATED_TO: §6Скин §8| §fВаш скин был обновлен
@@ -813,7 +813,7 @@ TEMP_GROUP_EXPIRE_TITLE: §cВремя истекло!
 THANKS_FOR_MARKING_MAP:
   - §aСпасибо за Ваш голос за карту %s§f!
 THIS_PLAYER_IS_TESTER_FIND: >-
-  $SERVER_PREFIX$Данный игрок является тестером анти-чита. Его нельзя отследить
+  §6Сервер §8| §fДанный игрок является тестером анти-чита. Его нельзя отследить
   в данный момент
 THIS_PLAYER_IS_TESTER_REPORT: §6Античит §8| §fДанный игрок не читер
 TOP_LEVEL_HOLO:
