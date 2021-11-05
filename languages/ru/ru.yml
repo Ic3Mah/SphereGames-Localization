@@ -124,7 +124,12 @@ CAGE: клетка
 ANARCHY_PREFIX: §6Anarchy §8| §f
 SB_PREFIX: §6SkyBlock §8| §f
 CREATIVE_PREFIX: §6Creative §8| §f
+RARITY: Редкость
+NONE: Без редкости
 COMMON: Обычный
+RARE: Редкий
+EPIC: Эпический
+LEGENDARY: Легендарный
 CONVERT: §6Магазин §8| §fВы успешно обменяли §e%s §fзолота на §a%s §fмонет
 COOLDOWN: §cПодождите %s %s перед следующим использованием
 DISABLE: Отключено
@@ -133,7 +138,6 @@ DISPELL: Чары с предмета были удалены
 ENABLE: Включено
 ENABLED: Включены
 ENCHANTED: Зачарованное
-EPIC: Эпический
 ETERNITY: вечность
 FREE: Бесплатно
 FURNACE: Печка
@@ -141,11 +145,10 @@ FW: §aСалют!
 GAMEMODE: $@MODE_PREFIX$Установлен режим - §c%s
 GROUP: Статус
 HIDE: Скрыт
-HOVER: ' §7(наведи сюда)'
+HOVER: §7(наведи сюда)
 INDEFINITELY: бессрочно
 ITEMDB: Предмет §a%s
 KIT: набор
-LEGENDARY: Легендарный
 LEVEL: уровень
 LIST:
   - ''
@@ -157,11 +160,8 @@ LIST:
   - ''
 LOADING: §cЗагружается...
 NEAR: '$@MODE_PREFIX$Ближайщие игроки: %s'
-NONE: Без редкости
 PERK: умение
 PING: §6Сервер §8| §fВаш пинг §a%s §fms
-RARE: Редкий
-RARITY: Редкость
 REMOVED: §cУдалено
 RESTART: Рестарт сервера через
 SKIN: скин магазина
@@ -2680,3 +2680,27 @@ WINS_1:
   - а
   - ы
   - ''
+DEFAULT_NAME: §7Игрок
+DEFAULT_PREFIX: §7
+LITE_NAME: §e§lLITE
+LITE_PREFIX: §e§lLITE §e
+HERO_NAME: §b§lHERO
+HERO_PREFIX: §b§lHERO §b
+BLAZE_NAME: §6§lBLAZE
+BLAZE_PREFIX: §6§lBLAZE §6
+ENDER_NAME: §5§lENDER
+ENDER_PREFIX: §5§lENDER §5
+CRYSTAL_NAME: §7§lCRYSTAL
+CRYSTAL_PREFIX: §7§lCRYSTAL §7
+YOUTUBE_NAME: §6§lYouTube
+YOUTUBE_PREFIX: §6§lYouTube §6
+JUNIOR_NAME: §2Мл.Хелпер
+JUNIOR_PREFIX: §2§lJUNIOR §2
+BUILDER_NAME: §3Строитель
+BUILDER_PREFIX: §3§lBUILDER §3
+HELPER_NAME: §2Хелпер
+HELPER_PREFIX: §2§lHELPER §2
+MODERATOR_NAME: §9Модератор
+MODERATOR_PREFIX: §9§lMODER §9
+ADMIN_NAME: §4Админ
+ADMIN_PREFIX: §4§lADMIN §4
